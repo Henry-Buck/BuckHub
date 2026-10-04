@@ -6,6 +6,10 @@ local ENV = (getgenv and getgenv()) or _G
 local PLACE_ID = game.PlaceId
 
 local SCRIPTS = {
+    [107535308163741] = {
+        name = "Huss Valley Autoplay",
+        url = "https://raw.githubusercontent.com/Henry-Buck/BuckHub/main/Individual/HussValleyAutoplay.lua",
+    },
     [100975894126710] = {
         name = "Guess & Slap",
         url = "https://raw.githubusercontent.com/Henry-Buck/BuckHub/main/Individual/GuessAndSlap.lua",
