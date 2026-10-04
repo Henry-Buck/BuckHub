@@ -3,14 +3,14 @@
 -- with its raw URL (raw.githubusercontent.com/.../GuessAndSlap.lua).
 
 local ENV = (getgenv and getgenv()) or _G
-local PLACE_ID = game.PlaceId
+local PLACE_ID = tostring(game.PlaceId)
 
 local SCRIPTS = {
-    [107535308163741] = {
+    ["107535308163741"] = {
         name = "Huss Valley Autoplay",
         url = "https://raw.githubusercontent.com/Henry-Buck/BuckHub/main/Individual/HussValleyAutoplay.lua",
     },
-    [100975894126710] = {
+    ["100975894126710"] = {
         name = "Guess & Slap",
         url = "https://raw.githubusercontent.com/Henry-Buck/BuckHub/main/Individual/GuessAndSlap.lua",
     },
